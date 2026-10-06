@@ -1,4 +1,24 @@
+/*Tablet View*/
+@media screen and(max-width: 772px) {
+    div {
+        width: 45vw;
+         height: auto;
+        display: inline-block;
+        vertical-align: top;
+    }
 
+    img {
+        max-height: 30vh;
+        width: auto;
+    }
+}
+/*Large screen view */
+@media screen and (max-width: 998px) {
+    div {
+        width: 30vw
+    }
+}
+        
 body {
     background-color: #dedede;
 }
