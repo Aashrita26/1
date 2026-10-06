@@ -22,45 +22,25 @@ p {
     text-align: center; 
 } 
 
-/* Mobile View */
-div { 
-    display: block; 
-    width: 100%; 
-} 
+@media screen and (min-width: 772px) {
+    div {
+        display: inline-block !important;
+        width: 45vw !important;
+        vertical-align: top;
+    }
 
-div img { 
-    width: 150px; 
-    height: 150px; 
-    display: block; 
-    margin: auto; 
-} 
-
-
-/* Tablet View */
-@media screen and (min-width: 772px) { 
-    div { 
-        display: inline-block; 
-        width: 45%; 
-        vertical-align: top; 
-    } 
-
-    div img { 
-        max-height: 30vh; 
-        width: auto; 
-    } 
-} 
-
-
-/* Large Screen View */
-@media screen and (min-width: 998px) { 
-    div { 
-        width: 30%; 
-    } 
+    div img {
+        max-height: 30vh;
+        width: auto;
+    }
 }
 
-div {
-    background-color: red;
+@media screen and (min-width: 998px) {
+    div {
+        width: 30vw !important;
+    }
 }
+
 
 
 
