@@ -44,27 +44,43 @@ div{
   padding: 2px;
 }
 
-/*Tablet View*/
+/* Mobile View */
+div {
+    display: block;
+    width: 100%;
+    margin: 5px;
+    padding: 2px;
+}
+
+div img {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+
+
+/* Tablet View */
 @media screen and (min-width: 772px) {
-  div {
-    width: 45vw;
-    display: inline-block;
-    vertical-align: top;
-  }
+    div {
+        width: 45vw;
+        display: inline-block;
+        vertical-align: top;
+    }
 
-  img {
-    max-height: 30vh;
-    width: auto;
-  }
+    img {
+        max-height: 30vh;
+        width: auto;
+    }
 }
-/*Large screen view */
 
+
+/* Large Screen View */
 @media screen and (min-width: 998px) {
-  div {
-    width: 30vw;
-  }
+    div {
+        width: 30vw;
+    }
 }
-
 
 
 
