@@ -2,6 +2,10 @@ body {
     background-color: #FFFFFF;
 }
 
+img {
+    border: 3px solid black;
+}
+
 h1 {
     text-align: center;
     font-family: Arial, sans-serif;
